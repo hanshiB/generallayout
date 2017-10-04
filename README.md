@@ -11,4 +11,3 @@ Run _npm install_ in root. Build with _npm start_. To find an overview of all av
 
 # License
 
-# from fork non-member
