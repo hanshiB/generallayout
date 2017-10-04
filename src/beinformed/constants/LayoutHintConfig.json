@@ -1,0 +1,359 @@
+{
+  "FULL_PAGE_FORMS": {
+    "hint": "full-page-forms",
+    "description": {
+      "NL": "Geef alle formulieren over het hele scherm weer, niet in een modal",
+      "EN": "Render all forms full page, not in a modal"
+    },
+    "link": "",
+    "component": [
+      "webapplication"
+    ]
+  },
+  "ICON": {
+    "hint": "icon",
+    "description": {
+      "NL": "Render als icoon.",
+      "EN": "Render as icon."
+    },
+    "link": "",
+    "component": [
+      "attribute/string"
+    ]
+  },
+  "MANDATORY": {
+    "hint": "mandatory",
+    "description": {
+      "NL": "Geeft aan of een attribuut verplicht is.\n Moet samen met de dependency hint gebruikt worden.",
+      "EN": "Indicates a mandatory attribute.\nIs used together with the dependency hint."
+    },
+    "link": "",
+    "component": [
+      "attribute"
+    ]
+  },
+  "OVERVIEW": {
+    "hint": "overview",
+    "description": {
+      "NL": "Wanneer dit is geconfigureerd op het dossierscherm, zullen panelen worden uitgeklapt. Groeperende panels zullen als tabs worden getoond.",
+      "EN": "When this is configured on the case view, all panels are expanded. Grouping panels are rendered as a tabbed control."
+    },
+    "link": "",
+    "component": [
+      "caseview"
+    ]
+  },
+  "PANELS_AS_TABS": {
+    "hint": "panels-as-tabs",
+    "description": {
+      "NL": "Wanneer dit is geconfigureerd op het dossierscherm, zullen alle panels als tab worden getoond.",
+      "EN": "When this is configured on the case view, all panels are rendered as a tab control."
+    },
+    "link": "",
+    "component": [
+      "caseview"
+    ]
+  },
+  "INLINE_EDIT_LIST": {
+    "hint": "inline-edit",
+    "description": {
+      "NL": "Toont een lijst als een bewerkbare lijst.",
+      "EN": "Renders a list as an editable list."
+    },
+    "link": "",
+    "component": [
+      "list"
+    ]
+  },
+  "INLINE_EDIT_CAN_DUPLICATE": {
+    "hint": "can-duplicate",
+    "description": {
+      "NL": "Geeft aan dat rijen gedupliceerd kunnen worden in een lijst met inline edit. Een cre&#235;er taak moet aanwezig zijn.",
+      "EN": "Indicates that the inline edit list can duplicate rows. Needs a create task present."
+    },
+    "link": "",
+    "component": [
+      "list"
+    ]
+  },
+  "INLINE_EDIT_UPDATE_ACTION": {
+    "hint": "update-inline-edit",
+    "description": {
+      "NL": "Geeft aan dat een taak gebruikt kan worden als update taak voor het inline editen van een lijst item.",
+      "EN": "Marks an update action as the update task to use to update an inline edit list item."
+    },
+    "link": "",
+    "component": [
+      "task/update"
+    ]
+  },
+  "INLINE_EDIT_CREATE_ACTION": {
+    "hint": "create-inline-edit",
+    "description": {
+      "NL": "Geeft aan date een taak gebruikt kan worden als cre&#235er taak voor het inline aanmaken van een nieuw lijst item.",
+      "EN": "Marks a create action as the create action to use to create a new inline edit listitem."
+    },
+    "link": "",
+    "component": [
+      "task/create"
+    ]
+  },
+  "INLINE_EDIT_CLONE_ACTION": {
+    "hint": "duplicate-inline-edit",
+    "description": {
+      "NL": "Geeft aan dat een taak gebruikt kan worden om een rij in een inline edit lijst te dupliceren.",
+      "EN": "Marks a create action as the duplicate action to use to duplicate an inline edit list item."
+    },
+    "link": "",
+    "component": [
+      "task/create"
+    ]
+  },
+  "INLINE_EDIT_DELETE_ACTION": {
+    "hint": "delete-inline-edit",
+    "description": {
+      "NL": "Geeft aan dat een taak gebruikt kan worden om een rij in een inline edit lijst te verwijderen.",
+      "EN": "Marks a delete action as the delete action to use as the delete inline edit list item action."
+    },
+    "link": "",
+    "component": [
+      "task/delete"
+    ]
+  },
+  "STAGESVIEW": {
+    "hint": "stages",
+    "description": {
+      "NL": "Toont een dossierscherm als een stadium overzicht, waarbij standaard elk panel als tab wordt getoond en alle groeperende panels uitgeklapt zijn.",
+      "EN": "Renders the caseview as a stage view, where (by default) each panel is shown as tab, where the grouping-panel panels are expanded."
+    },
+    "link": "",
+    "component": [
+      "caseview"
+    ]
+  },
+  "DAP_ACTIVITIES_EXECUTABLE": {
+    "hint": "dap-activities-executable",
+    "description": {
+      "NL": "Rendered een taak als een actie, met een specifiek icoon.",
+      "EN": "Renders a task as an action, indicated by a specific icon."
+    },
+    "link": "",
+    "component": [
+      "attribute/choice"
+    ]
+  },
+  "DAP_ACTIVITIES_PERFORMED": {
+    "hint": "dap-activities-performed",
+    "description": {
+      "NL": "Rendered een aparte taakgroep 'Uitgevoerde activiteiten' met onuitvoerbare activiteiten, met alle labels voor elke optie van deze dossier eigenschap.",
+      "EN": "Renders a separate task group 'Performed activities' of readonly activities, containing the labels of each option of this case property."
+    },
+    "link": "",
+    "component": [
+      "attribute/choice"
+    ]
+  },
+  "DAP_STAGES_EXECUTABLE": {
+    "hint": "dap-stages-executable",
+    "description": {
+      "NL": "Rendered een uitroepteken voor de stadium tab om aan te geven dat de gebruiker nog een aantal activiteiten voor dit stadium moet uitvoeren",
+      "EN": "Renders an exclamation mark in front of the stage tab to acknowledge the end-user that there are still activities to do on the marked stage."
+    },
+    "link": "",
+    "component": [
+      "attribute/choice"
+    ]
+  },
+  "DAP_STAGES_PERFORMED": {
+    "hint": "dap-stages-performed",
+    "description": {
+      "NL": "Rendered een vinkje voor de stadium tab om aan te geven dat alle activiteiten zijn afgerond.",
+      "EN": "Renders a check mark in front of the stage tab to acknowledge the end-user that all activities of that stage have been finished."
+    },
+    "link": "",
+    "component": [
+      "attribute/choice"
+    ]
+  },
+  "DAP_COMPLETE_STAGE": {
+    "hint": "dap-complete-stage",
+    "description": {
+      "NL": "Rendered een taak als een 'afronden stadium' knop in het groeperende panel van het gerelateerde stadium.",
+      "EN": "Renders a task as a 'complete stage' button within the grouping panel of the related stage."
+    },
+    "link": "",
+    "component": [
+      "attribute/choice"
+    ]
+  },
+  "DEPENDENT_INPUT_CONTROL": {
+    "hint": "dependent-control ${unique-control-id}",
+    "description": {
+      "NL": "Geeft aan dat dit het attribuut is waar attributen van afhankelijk zijn. Het unique-control-id is een uniek id dat kan worden gebruikt in the hint voor de show|hide actie op het afhankelijke attribuut.",
+      "EN": "Marks the choice attribute where attributes depend on. The unique control id is a unique id that can be used in the hint for the show|hide action on the dependent attribute."
+    },
+    "link": "",
+    "component": [
+      "attribute/choice"
+    ]
+  },
+  "DEPENDENT_INPUT_ACTION": {
+    "hint": "(show|hide) when dependent-control:${unique-control-id} (equals|includes|notEquals|notIncludes) [${codemaps}]",
+    "description": {
+      "NL": "Voor het tonen of verbergen van een attribuut dat afhankelijk is van de options van een keuze attribuut codemap.<br/>Voorbeeld 1: show|hide when dependent-control:<unique ID> notEquals [<codemap code 1>|<codemap code 2>|<codemap code 3>] betekent dat alle genoemde opties niet geselecteerd mogen zijn<br/>Voorbeeld 2: show|hide when dependent-control:<unique ID> notIncludes [<codemap code 1>|<codemap code 2>|<codemap code 3>] betekent dat een van de genoemde opties niet geselecteerd mag zijn",
+      "EN": "To show or hide an attribute that is dependent on options of the choice control codemap that are not selected, and all options must not be selected (AND NOT), we can add the following instruction to a layout hint: <br/>show|hide when dependent-control:<unique ID> notEquals [<codemap code 1>|<codemap code 2>|<codemap code 3>]<br/>To show or hide an attribute that is dependent on options of the choice control codemap that are not selected, and one of the options must not be selected (OR NOT), we can add the following instruction to a layout hint:<br/>show|hide when dependent-control:<unique ID> notIncludes [<codemap code 1>|<codemap code 2>|<codemap code 3>]"
+    },
+    "link": "",
+    "component": [
+      "attribute"
+    ]
+  },
+  "NOTIFY": {
+    "hint": "notify",
+    "description": {
+      "NL": "Informeer de gebruiker met een generieke notificatie.",
+      "EN": "Notify end user with a generic notification message."
+    },
+    "link": "",
+    "component": [
+      "form"
+    ]
+  },
+   "NOTIFY_CREATE": {
+    "hint": "notify-create",
+    "description": {
+      "NL": "Informeer de gebruiker dat er iets is gecreëerd.",
+      "EN": "Notify end user that something was created."
+    },
+    "link": "",
+    "component": [
+      "task/create",
+	  "task/generalpanel"
+    ]
+  },
+   "NOTIFY_UPDATE": {
+    "hint": "notify-update",
+    "description": {
+      "NL": "Informeer de gebruiker dat er iets is geupdated.",
+      "EN": "Notify end user that something was updated."
+    },
+    "link": "",
+    "component": [
+      "task/update", 
+	  "task/generalrow"
+    ]
+  },
+  "NOTIFY_DELETE": {
+    "hint": "notify-delete",
+    "description": {
+      "NL": "Informeer de gebruiker dat er iets is verwijderd.",
+      "EN": "Notify end user that something was deleted."
+    },
+    "link": "",
+    "component": [
+      "task/delete", 
+	  "task/generalrow"
+    ]
+  },
+  "MULTI_ROW_TASK": {
+    "hint": "multirowtask",
+    "description": {
+      "NL": "Voeg vinkjes toe aan het begin van elke rij van de tabel. De selectie van deze vinkjes zal worden meegegeven aan de taak als deze wordt gestart.",
+      "EN": "Add checkboxes in front of list rows which are used as input for the multi row task."
+    },
+    "link": "",
+    "component": [
+      "task"
+    ]
+  },
+  "FORM_FINISH_RETURN": {
+    "hint": "return",
+    "description": {
+      "NL": "Nadat een formulier is afgerond volg dan niet de redirects en update ook de huidige lijst niet.",
+      "EN": "After form is finished don't follow redirects or update lists."
+    },
+    "link": "",
+    "component": [
+      "form"
+    ]
+  },
+  "FORM_FINISH_RETURN_RELOAD_LIST": {
+    "hint": "return-and-reload-list",
+    "description": {
+      "NL": "Nadat een formulier is afgerond volg dan niet de redirects maar herlaad de huidige lijst.",
+      "EN": "After form is finished don't follow redirects, just reload the list currently active."
+    },
+    "link": "",
+    "component": [
+      "form"
+    ]
+  },
+  "HIDE_MODELCATALOG": {
+    "hint": "hide-modelcatalog",
+    "description": {
+      "NL": "Verberg de link naar de model catalogus in het hoofd menu.",
+      "EN": "Hide the modelcatalog link on the main menu."
+    },
+    "link": "",
+    "component": [
+      "webapplication"
+    ]
+  },
+  "HIDE_LABEL": {
+    "hint": "hide-label",
+    "description": {
+      "NL": "Verberg het label van een instrument of gebeurtenis vraag.",
+      "EN": "Hide the label of an instrument or event question."
+    },
+    "link": "",
+    "component": [
+      "question"
+    ]
+  },
+  "EMPHASIS": {
+    "hint": "emphasis",
+    "description": {
+      "NL": "Benadruk de inhoud",
+      "EN": "Emphasize content"
+    },
+    "link": "",
+    "component": [
+      "element/content",
+      "element/navigation",
+      "element/textfragment"
+    ]
+  },
+  "ALIGN_LEFT": {
+    "hint": "align-left",
+    "description": {
+      "NL": "Attributen worden links uitgelijnd",
+      "EN": "Attribute values will be left aligned."
+    },
+    "link": "",
+    "component": [
+      "attribute"
+    ]
+  },
+  "ALIGN_CENTER": {
+    "hint": "align-center",
+    "description": {
+      "NL": "Attributen worden gecentreerd",
+      "EN": "Attribute values will be centered."
+    },
+    "link": "",
+    "component": [
+      "attribute"
+    ]
+  },
+  "ALIGN_RIGHT": {
+    "hint": "align-right",
+    "description": {
+      "NL": "Attributen worden rechts uitgelijnd",
+      "EN": "Attribute values will be right aligned."
+    },
+    "link": "",
+    "component": [
+      "attribute"
+    ]
+  }
+}

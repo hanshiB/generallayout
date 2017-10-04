@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Be Informed General Layout
+Bundle-SymbolicName: nl.beinformed.bi.layout.general.modularui;singleton:=true
+Bundle-Version: 3.15.2.0_qualifier
+Bundle-Vendor: Be Informed B.V.
+Bundle-ClassPath: .
+Require-Bundle: nl.beinformed.bi.pluggablelayout

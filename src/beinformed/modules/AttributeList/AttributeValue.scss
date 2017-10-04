@@ -1,0 +1,12 @@
+@import "../../../variables";
+
+.composite-attribute-child {
+  .composite-attribute-child-label {
+    font-style: italic;
+    font-size: $font-size-sm;
+  }
+
+  .attribute-value {
+    padding: 0;
+  }
+}

@@ -1,0 +1,57 @@
+.table-inline-edit {
+  .table-row:hover {
+    background: transparent;
+
+    cursor: default;
+  }
+
+  .table-cell-inline-edit {
+    position: relative;
+
+    overflow: visible;
+
+    padding: 0.25rem;
+  }
+
+  .form-group {
+    margin-bottom: 0;
+  }
+
+  .cell-assistant {
+    margin-top: 7px;
+  }
+
+  .custom-control {
+    display: block;
+
+    margin-left: 0;
+  }
+
+  &.has-clone-task,
+  &.has-delete-task {
+    .table-header,
+    .table-row {
+      position: relative;
+
+      padding-right: 55px;
+    }
+
+    .table-cell-inline-actions {
+      width: 55px;
+
+      padding: 0.25rem;
+
+      margin-right: -55px;
+
+      > .btn + .btn {
+        margin-top: 0.25rem;
+      }
+
+      .fa {
+        min-width: 16px;
+
+        margin: 0 -4px;
+      }
+    }
+  }
+}

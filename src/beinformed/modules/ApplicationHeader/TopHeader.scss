@@ -1,0 +1,13 @@
+@import "../../../variables";
+
+.top-header {
+  background-color: $top-header-background;
+
+  margin-bottom: 0;
+
+  font-size: $font-size-sm;
+
+  .btn {
+    font-size: $font-size-sm;
+  }
+}

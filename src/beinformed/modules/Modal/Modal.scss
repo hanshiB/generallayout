@@ -1,0 +1,12 @@
+@import "../../../variables";
+
+.modal-open .modal {
+  display: block;
+
+  background-color: $modal-background-color;
+}
+
+.modal-footer .btn + .btn {
+  margin-bottom: 0;
+  margin-left: 5px;
+}

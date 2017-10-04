@@ -1,0 +1,14 @@
+@import "../../../variables";
+
+.lookup-active-option {
+  .lookup-remove-active-option {
+    color: $gray-400;
+    background: transparent;
+
+    border: 0;
+  }
+
+  &:hover .lookup-remove-active-option {
+    color: $gray-600;
+  }
+}

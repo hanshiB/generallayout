@@ -1,0 +1,58 @@
+@import "../../../variables";
+@import "~bootstrap/scss/mixins/clearfix";
+@import "~bootstrap/scss/mixins/breakpoints";
+@import "~bootstrap/scss/mixins/grid";
+@import "~bootstrap/scss/mixins/nav-divider";
+
+.tab {
+  @include make-container();
+
+  position: relative;
+
+  .taskmenu {
+    margin-left: auto;
+  }
+
+  .tab-header {
+    @include make-row();
+
+    margin-bottom: $spacer;
+  }
+
+  &.has-search.has-taskgroups .tab-header {
+    padding-right: 3em;
+  }
+}
+
+.component-chooser {
+  &.open .dropdown-toggle {
+    box-shadow: none;
+  }
+
+  .tab-title {
+    padding-left: 0;
+
+    color: $component-active-color;
+    background: transparent;
+  }
+
+  .group-divider {
+    position: relative;
+
+    margin-top: 1em;
+  }
+
+  .group-divider::before {
+    @include nav-divider($dropdown-divider-bg);
+
+    content: "";
+
+    position: absolute;
+    top: -1em;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+  }
+}

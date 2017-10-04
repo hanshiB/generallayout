@@ -1,0 +1,17 @@
+@import "../../../variables";
+
+.application-header {
+  background-color: $application-header-background;
+
+  a {
+    color: $application-header-link-color;
+  }
+
+  a:hover {
+    color: $application-header-link-hover-color;
+  }
+
+  .navbar {
+    padding-top: 0;
+  }
+}

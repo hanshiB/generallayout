@@ -1,0 +1,34 @@
+[ignore]
+.*/\.vscode/.*
+.*/coverage/.*
+.*/eslint-beinformed/.*
+.*/jest/.*
+.*/lib/.*
+.*/META-INF/.*
+.*/WEB-INF/.*
+.*/webpack/.*
+
+.*\.scss
+
+.*/node_modules/stylelint/.*
+.*/node_modules/fbjs/.*
+.*/node_modules/eslint-plugin-jsx-a11y/.*
+.*/node_modules/findup/.*
+
+[libs]
+./flow-decls/
+./flow-typed/npm/
+./node_modules/fbjs/flow/lib
+
+[options]
+sharedmemory.hash_table_pow=21
+
+# webpack loaders
+module.name_mapper='.*\.s?css$' -> '<PROJECT_ROOT>/flow-stubs/css-module.js'
+module.name_mapper='.*\.\(svg\|png\|jpg\|gif\|ico\|xml\)$' -> '<PROJECT_ROOT>/flow-stubs/url-loader.js'
+
+unsafe.enable_getters_and_setters=true
+suppress_comment= \\(.\\|\n\\)*\\$FlowFixMe
+
+# resolve src root folder
+module.system.node.resolve_dirname=src

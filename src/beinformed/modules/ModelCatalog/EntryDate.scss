@@ -1,0 +1,22 @@
+@import "../../../variables";
+
+.catalog {
+  position: relative;
+
+  .entry-date {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    max-width: 250px;
+
+    padding: $spacer;
+
+    background: theme-color("light");
+
+    box-shadow: $dropdown-box-shadow;
+
+    margin-top: -$spacer;
+    margin-right: 30px;
+  }
+}

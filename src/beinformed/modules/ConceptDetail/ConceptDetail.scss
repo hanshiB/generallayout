@@ -1,0 +1,29 @@
+@import "../../../variables";
+
+.concept-detail {
+  dt {
+    font-weight: normal;
+  }
+
+  .concept-relations {
+    .relation-label {
+      font-size: 1em;
+
+      span + small {
+        margin-left: $spacer / 2;
+      }
+    }
+  }
+
+  .content-sections {
+    position: relative;
+
+    overflow: hidden;
+
+    max-height: 300px;
+
+    h2 {
+      font-size: 1rem;
+    }
+  }
+}
