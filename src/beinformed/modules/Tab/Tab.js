@@ -11,6 +11,8 @@ import "./Tab.scss";
 
 import type TabModel from "beinformed/models/tab/TabModel";
 
+import Breadcrumb from "beinformed/modules/Breadcrumb2/Breadcrumb";
+
 export type TabProps = {
   tab: TabModel
 };
@@ -39,6 +41,8 @@ const Tab = ({ tab }: TabProps) => {
           />
         )}
         {tab.hasComponents() && <TabHeader tab={tab} />}
+
+        <Breadcrumb />
 
         <TabComponentContainer />
       </div>
